@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Caht {
+struct Chat: Decodable {
     let id: String
     let messages: [Message]
 }
