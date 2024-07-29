@@ -13,10 +13,10 @@
 		2241D0242C50A4F800476BED /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2241D0232C50A4F800476BED /* ChatView.swift */; };
 		2241D0262C53B78B00476BED /* MessageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2241D0252C53B78B00476BED /* MessageRow.swift */; };
 		227DAF972C577C3A0059895B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227DAF962C577C3A0059895B /* User.swift */; };
-		227DAF992C577CF20059895B /* DataModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227DAF982C577CF20059895B /* DataModelTest.swift */; };
 		227DAF9B2C577E610059895B /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227DAF9A2C577E610059895B /* Message.swift */; };
 		227DAF9D2C57804A0059895B /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227DAF9C2C57804A0059895B /* Chat.swift */; };
 		227DAFA02C5785CD0059895B /* chatData.json in Resources */ = {isa = PBXBuildFile; fileRef = 227DAF9F2C5785CD0059895B /* chatData.json */; };
+		227DAFA32C57876F0059895B /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227DAFA22C57876F0059895B /* ChatViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,10 +27,10 @@
 		2241D0232C50A4F800476BED /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		2241D0252C53B78B00476BED /* MessageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRow.swift; sourceTree = "<group>"; };
 		227DAF962C577C3A0059895B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		227DAF982C577CF20059895B /* DataModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModelTest.swift; sourceTree = "<group>"; };
 		227DAF9A2C577E610059895B /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		227DAF9C2C57804A0059895B /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 		227DAF9F2C5785CD0059895B /* chatData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chatData.json; sourceTree = "<group>"; };
+		227DAFA22C57876F0059895B /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +66,7 @@
 				2241D0152C50A3D000476BED /* ChatAppPrcticeApp.swift */,
 				227DAF952C577BFC0059895B /* Models */,
 				2241D0272C53B79800476BED /* Views */,
+				227DAFA12C57873C0059895B /* ViewModels */,
 				227DAF9E2C5785660059895B /* DataServices */,
 				2241D0192C50A3D100476BED /* Assets.xcassets */,
 				2241D01B2C50A3D100476BED /* Preview Content */,
@@ -86,7 +87,6 @@
 			children = (
 				2241D0252C53B78B00476BED /* MessageRow.swift */,
 				2241D0232C50A4F800476BED /* ChatView.swift */,
-				227DAF982C577CF20059895B /* DataModelTest.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -107,6 +107,14 @@
 				227DAF9F2C5785CD0059895B /* chatData.json */,
 			);
 			path = DataServices;
+			sourceTree = "<group>";
+		};
+		227DAFA12C57873C0059895B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				227DAFA22C57876F0059895B /* ChatViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,8 +188,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				227DAF992C577CF20059895B /* DataModelTest.swift in Sources */,
 				227DAF972C577C3A0059895B /* User.swift in Sources */,
+				227DAFA32C57876F0059895B /* ChatViewModel.swift in Sources */,
 				227DAF9D2C57804A0059895B /* Chat.swift in Sources */,
 				2241D0242C50A4F800476BED /* ChatView.swift in Sources */,
 				227DAF9B2C577E610059895B /* Message.swift in Sources */,
