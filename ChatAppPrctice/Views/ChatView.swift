@@ -11,6 +11,8 @@ struct ChatView: View {
     
     @State private var textFieldText: String = ""
     
+    let vm: ChatViewModel = ChatViewModel() //テスト用
+    
     var body: some View {
         VStack {
             // messege area
