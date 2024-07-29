@@ -10,12 +10,11 @@ import Foundation
 class ChatViewModel {
     
     var chatData: [Chat] = []
-    var messages: [Message] = [] //テスト用
+    var messages: [Message] = []
     
     init() {
         chatData = fetchChatData()
         messages = chatData[0].messages //テスト用
-        print(messages) //テスト用
     }
     
     private func fetchChatData() -> [Chat] {
@@ -38,5 +37,9 @@ class ChatViewModel {
         } catch {
             fatalError("\(fileName)を\(Chat.self)に変換することに失敗しました")
         }
+    }
+    
+    func addMessage() {
+        print("データを追加します")
     }
 }
